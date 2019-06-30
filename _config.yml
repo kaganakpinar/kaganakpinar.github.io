@@ -1,14 +1,14 @@
 # Site settings
 title: Kağan Akpınar
 description: 
-url:
+url: https://kaganakpinar.github.io/
 author:
   name: "Kağan Akpınar"
   email: "kaganakpinar30@gmail.com"
   twitter: kgn_akpnr
 
 # Build settings
-baseurl: # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: 
 markdown: kramdown
 source: .
 destination: ./_site
