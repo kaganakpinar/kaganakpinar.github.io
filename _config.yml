@@ -1,11 +1,11 @@
 # Site settings
 title: Kağan Akpınar
 description: 
-url: 
+url:
 author:
   name: "Kağan Akpınar"
   email: "kaganakpinar30@gmail.com"
-  url: 
+  twitter: kgn_akpnr
 
 # Build settings
 baseurl: # Change this to your relative path (ex: /blog/), or leave just a /
@@ -28,6 +28,7 @@ defaults:
 Plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Custom variables
 version: "1.0.0"

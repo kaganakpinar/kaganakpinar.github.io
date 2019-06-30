@@ -3,9 +3,11 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
+	<link rel="canonical" href="{{ page.redirect_to }}"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 	<!-- CSS & fonts -->
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
@@ -17,4 +19,5 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <!--<link rel="shortcut icon" type="image/png" href="img/favicon.png">-->
 
+  {% seo %}
 </head>
